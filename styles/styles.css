@@ -1,5 +1,77 @@
+body {
+    margin: 0;
+}
 .page {
     background-color: pink;
     min-height: 100vh;
+    width: 100%;
 }
 
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    width: 468px;
+    height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    margin: 10px;
+}
+
+.container--yellow {
+    background: #FFBF46;
+    align-items: flex-end;
+}
+
+.container--green {
+    background: #8ACB88;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.container--moss {
+    background: #648381;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--lilac {
+    background: #575761;
+}
+
+.container--mint {
+    background: #E4FDE1;
+}
+
+.container--blue {
+    background: #6C969D;
+}
+
+.page__item {
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box--lilac {
+    background: #575761;
+    margin: 5px;
+    width: 78px;
+    height: 78px;
+}
+
+.box--blue {
+    background: #648381;
+    margin: 5px;
+    width: 78px;
+}
+
+.box--mint {
+    background: #E4FDE1;
+    margin: 5px;
+    width: 78px;
+    height: 78px;
+}
