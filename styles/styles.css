@@ -174,11 +174,11 @@ body {
 }
 
 .block_1 {
-    justify-content: flex-start;
+    justify-content: flex-start; /*don't understand why space is large between rows*/
 }
 
 .block_2 {
-    justify-content: flex-end;
+    justify-content: flex-end; /*don't understand why space is large between rows*/
     flex-wrap: wrap-reverse;
 }
 
