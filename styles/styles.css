@@ -134,6 +134,17 @@ body {
     min-height: 100vh;
     width: 100%;
     background-color: #7180AC;
+    position: relative;
+}
+
+.page_2_wrap {
+    max-height: 600px;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: flex-start;
 }
 
 .block {
@@ -149,4 +160,12 @@ body {
 
 .block_light {
     background: #A8D0DB;
+}
+
+.cirkle {
+    width: 50px;
+    height: 50px;
+    background: #E49273;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
 }
